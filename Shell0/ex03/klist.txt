@@ -1,0 +1,6 @@
+Credentials cache: API:0A490438-92DF-4CAF-ADDA-31D8F94A1C0B
+        Principal: shkhan@42.FR
+
+  Issued                Expires               Principal
+Feb  3 10:43:30 2020  Feb 10 10:43:30 2020  krbtgt/42.FR@42.FR
+Feb  3 10:43:30 2020  Feb 10 10:43:30 2020  HTTP/student-storage-2.42.fr@42.FR
