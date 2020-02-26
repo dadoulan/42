@@ -37,11 +37,10 @@ int		ft_ultimate_range(int **range, int min, int max)
 }
 
 #include <stdio.h>
-int main()
+int main(int ac, char **av)
 {
-	int **range =0;
-	int tab = ft_ultimate_range(range,0,10);
-
-	printf("%d", tab);
-	return(0);
+    int a = atoi(av[1]);
+    int b = atoi(av[2]);
+    int **range = (int **)malloc(sizeof(**range) * (b - a));
+    printf(“%d\n”, ft_ultimate_range(range, a, b));
 }
